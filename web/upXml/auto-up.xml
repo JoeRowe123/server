@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="yes" ?>
+<Msg Version="1.0"
+     MsgID="2"
+     Type="WSMonUp"
+     DateTime="2002-08-17 15:30:00"
+     StationName="XX台站"
+     SrcCode="110000M01"
+     DstCode="110000G01"
+     ReplyID="1000_ID"
+>
+    <Return Type="DevStatusQuery" Value="0" Desc="成功"/>
+    <ReturnInfo>
+        <DevStatus Time="2016-10-10 10 :00 :00">
+            <Index Type="1" Desc="电源状态" Value="1"/>
+            <Index Type="2" Desc="板卡状态" Value="1"/>
+            <Index Type="3" Desc="风扇状态" Value="1"/>
+            <Index Type="4" Desc="硬盘占用" Value="50"/>
+            <Index Type="5" Desc="内存占用 " Value="50"/>
+            <Index Type="6" Desc="CPU占用" Value="80"/>
+        </DevStatus>
+    </ReturnInfo>
+</Msg>
